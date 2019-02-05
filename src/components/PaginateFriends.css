@@ -1,0 +1,29 @@
+:local(.pagination) {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+:local(.pagination) span {
+  padding: 14px;
+  text-align: center;
+  max-width: 150px;
+}
+:local(.pagination) div.button-container {
+  height: 50px;
+  width: 80px;
+  background: #ffffff;
+}
+:local(.pagination) button {
+  padding: 14px;
+  text-align: center;
+  max-width: 150px;
+  background: #ffffff;
+  border: none;
+  color: #2b6ee9;
+}
+:local(.pagination) button:hover {
+  color: #5d96ff;
+}
+:local(.pagination) button.disabled {
+  color: #efefef;
+}
